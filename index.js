@@ -17,7 +17,7 @@ const authMiddleware = require("./middleware/authMiddleware")
 
 const corsOptions = {
   // Connect to client side
-  // origin: ["http://localhost:4000", "http://localhost:1573"],
+  // origin: ["https://chat-app-server-ri4c.onrender.com", "https://chat-app-bjzw.onrender.com"],
   origin: "http://localhost:5173",
   allowedHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept"],
   credentials: true,
